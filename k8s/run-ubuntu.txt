@@ -1,0 +1,1 @@
+kubectl run xxx --rm -i --tty --image ubuntu:18.04 -- bash

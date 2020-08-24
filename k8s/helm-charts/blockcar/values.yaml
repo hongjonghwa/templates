@@ -1,0 +1,10 @@
+environment: development
+ingress:
+  host: blockcar.ex.ssafy.io
+  path: /
+container:
+  name: blockcar
+  port: 8080
+  image: xxxxxxxxxxxx.dkr.ecr.ap-northeast-2.amazonaws.com/demo/blockcar
+  tag: 0.1
+replicas: 1
